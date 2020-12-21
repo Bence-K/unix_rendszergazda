@@ -1,0 +1,1 @@
+14.	A felhasználók jelezték, hogy /home/kozos mappában fontos mérési adatok találhatóak. Oldja meg ezen mappa automatikus mentését. Óránként kellene a /var/mentes ala menteni az adatokat tar.gz-ben.

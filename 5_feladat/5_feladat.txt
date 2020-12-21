@@ -1,0 +1,1 @@
+5.	Három új partíción van: /dev/sda3, /dev/sda4, /dev/sda5. Szeretnénk ezeket felcsatolni a /home/kozos, /var/opt, /var/log mappákba. Milyen parancsokkal tudjuk ezeket felcsatolni? És lecsatolni? Hogyan tudjuk beállítani, hogy a következő indításnál ezek automatikusan felcsatolódjanak?

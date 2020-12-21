@@ -1,0 +1,21 @@
+#!/bin/bash
+#email küldésére az "ssmtp" programot fogom használni az egyszerűség kedvéért
+#email küldése az "ssmtp"-vel 
+#sendmail username@gmail.com  < email.txt
+
+# a tamado processz keresese, hogy fut-e
+PROC=$(ps auxw | grep 'tamadoProcesszNeve' | grep -v grep 
+
+#ha a PROC nem ures, akkor a tamado processz fut
+if [[ -s $PROC]]; then
+
+#mivel fut, ezért az adatait az email.txt-be irányijuk
+	PROC=$(ps auxw | grep 'tamadoProcesszNeve' | grep -v grep > email.txt
+
+#aktuális dátum (óra:perc|év-hónap-nap) hozzáfúzése az utolsó sorhoz:
+date +"%R|%Y-%m-%d" >> email.txt
+
+#majd elkuldjuk az emailt
+sendmail username@gmail.com  < email.txt
+
+fi

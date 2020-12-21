@@ -1,0 +1,1 @@
+8.	Van egy process, ami mindig elindul trojaLova nevű.  Mi nem kértük, hogy elinduljon, nem tudunk róla semmit. Hogyan kellene eltávolítani a futó processzek közül? Újraindítás után megint elindult. Miért? hol kellene utána nézni, hogy miért indult el ismét? Hogyan akadályozzunk meg, hogy megint elinduljon?

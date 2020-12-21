@@ -1,0 +1,1 @@
+11.	Múltkor véletlenül root-ként indított egy alkalmazást, ami létrehozott sok mappát a /home/talpasUser mappában. Melyik paranccsal tudnánk visszaadni ezeket a mappákat erkurzivan visszaadni a talpasUser-nek?

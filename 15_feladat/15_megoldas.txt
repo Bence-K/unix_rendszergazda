@@ -1,0 +1,5 @@
+#a percenkénti futtatáshoz egy új sort kell hozzáadni a crontabhoz
+crontab -e
+
+#sor amit oda kell irni
+* * * * * ./15_megoldas.sh

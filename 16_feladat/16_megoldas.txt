@@ -1,0 +1,11 @@
+#image telepites
+docker pull docker.elastic.co/elasticsearch/elasticsearch:7.10.0
+
+#inditás a megadott szempontoknak megfelelően
+docker run -p 9200:9300 -p 1201:1202 -e "discovery.type=single-node" docker.elastic.co/elasticsearch/elasticsearch:7.10.1
+
+#listázom az image-ket hogy megtaláljam a megfelelő konténer ID-t
+docker ps -a
+
+#leállitás
+docker stop KONTÉNER_ID

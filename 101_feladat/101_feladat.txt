@@ -1,0 +1,1 @@
+Jó lenne, ha minden újonnan érkező alkalmazottnak a home mappájában ott lenne a Szabályzat.txt nevű fájl,  akkor amikor a felhasználót létrehozzák, hogy ne kelljen mindig bemásolni. Hogyan lehetne megoldani?  (Kiegészités: A már létezőknek is bemásolni.)

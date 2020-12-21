@@ -1,0 +1,7 @@
+#a fizikai cimhez tartozó ip kikeresese
+arp -a | grep "00:15:5D:62:48:36"
+
+#a "tamado" nevu felhasznalo tiltasa, 3 módszer
+passwd -l tamado
+#usermod -L tamado
+#sudo chsh kovacs35 -s /usr/sbin/nologin

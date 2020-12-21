@@ -1,0 +1,9 @@
+#partició formázáshoz megkeresem melyik particiót kell formázni
+sudo fdisk -l
+
+#utáne leformázom ext4-tipusra
+mkfs.ext4 /dev/sda
+
+#ext4-et ajánlom mert kompatibilis a korábbi 3-assal, igy azt egyszerűen lehet konvertálni felfele
+#az ext4 a mai nagy méretű fájloknak jobban megfelel, ugyanis 48bites blokk cimzést használ
+#az ext4 nem maximalizálja az egy könyvtárban található alkönyvtárak számát

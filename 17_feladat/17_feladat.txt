@@ -1,0 +1,1 @@
+17.	Ismét elakadtak a kollégák valamiért nem tudnak csatlakozni a dockerben futó szerverhez. Mi már ugye a kocsiban ülünk, de szeretnénk segíteni. Milyen parancsokkal adjanak ki? Mit kellene látniuk?

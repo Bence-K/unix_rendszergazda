@@ -1,0 +1,1 @@
+9.	Lassú a rendszer, a kevés diszk területre gyanakszunk. Hogyan lehetnek megnézni, hogy melyik diszken mennyi üres hely van még? Ez volt a baj. Meg kellene keresni hogy melyik mappában vannak a nagy file-ok. Mutassa be, hogy hogyan tudjuk a gyökérmappa, majd tetszöleges mappában kilistázni a 3 legnagyobb filet.

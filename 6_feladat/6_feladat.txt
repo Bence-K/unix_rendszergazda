@@ -1,0 +1,1 @@
+6.	Hüha lassú a kolléga laptopja. A kevés memóriára gyanakszunk. Hogyan tudnánk ellenőrizni, hogy mennyi a fizikai, és mennyi a virtuális memória Áhá ez volt a gond. Hogyan tudnánk létrehozni egy 8 G swap file Hogyan tudnánk bekapcsolni, hogy használja a rendszer

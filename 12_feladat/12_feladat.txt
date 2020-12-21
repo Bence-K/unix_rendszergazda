@@ -1,0 +1,1 @@
+12.	Új kollégák érkeztek. Szerencsére egy szöveges állományba összegyűjtötték az új felhasználók adatait. userNev:Teljes nev:shell formában. Írjon egy kis shell szkriptet, ami felveszi a usereket!

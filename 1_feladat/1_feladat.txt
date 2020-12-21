@@ -1,0 +1,1 @@
+1.	Vegyen fel 3 felhasználót "kovacs35", "nagy12", "toth13"! Vegyen fel egy "kutatok" csoportot, amibe vegye fel az előző 3 új felhasználót! Hozzon létre egy mappát "/home/kutatok", amibe a kutatók csoport minden tagja tud írni, olvasni, mindenki más csak olvasni tudjon.

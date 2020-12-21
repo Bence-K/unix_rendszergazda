@@ -1,0 +1,1 @@
+2.	Betámadták a rendszert! Csak azt tudjuk, hogy a fizikai cím a következő volt: 00:15:5D:62:48:46 a usernev pedig tamado (helyi halozat). Amíg ki nem derítjük a részleteket, határozza meg, hogy ehhez a fizika címhez milyen IPV4 cím tartozik, és adja meg az ottani rendszer gazdának, hogy milyen paranccsal (eljárással) lehet letiltani az adott usert!

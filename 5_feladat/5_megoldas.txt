@@ -1,0 +1,18 @@
+#felcsatolás a mount paranccsal
+sudo mount /dev/sda3 /home/kozos
+sudo mount /dev/sda4 /var/opt
+sudo mount /dev/sda5 /var/log 
+
+#lecsatolás az umount-tal
+sudo umount /home/kozos
+sudo umount /var/opt
+sudo umount /var/log 
+
+#az autmatikus felcsatoláshoz 3 uj bejegyzést kell irni a "/etc/fstab"-ba
+sudo nano /etc/fstab
+
+#3 sor hozzáadása, a nofail külső háttértárnál fontosabb, ha csatlakoztatva ne jelezzen hibát
+#<file system>	<mount point> <type> <options> <dump> <pass>
+/dev/sda3 /home/kozos auto nofail  0 0
+/dev/sda4 /var/opt auto nofail 0 0
+/dev/sda5 /var/log auto nofail  0 0

@@ -1,0 +1,20 @@
+#memória és swap listázása
+free -h
+
+# 8GB-s fájl létrehozása
+sudo fallocate -k 2g /swapfile
+
+#csak a root férjen hozzá
+sudo chmod 600 /swapfile
+
+#swap fájl létrehozása a sima fájlból
+sudo mkswap /swapfile
+
+#jelenlegi swap fájl, és helyének kilistázása
+cat /proc/swaps
+
+#jelenlegi swap lekapcsolása
+sudo swapon jelenlegiswaphelye
+
+#új swap bekapcsolás
+sudo swapon /swapfile

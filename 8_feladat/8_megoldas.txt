@@ -1,0 +1,12 @@
+#megkeressük a torjaLova processzenek a PID-jét, valamint itt látjuk a futtatási helyét is
+ps aux | grep trojaLova
+
+#PID-re kill-t küldve leállitjuk
+kill PID
+
+#a futtatási helyére navigálva töröljük a rendszerről, hogy ne indulhasson el újra
+#valoszinuleg egy daemonkent indul, az init.d-ben kell keresni
+ls /etc/init.d
+
+#torles
+rm -fv /etc/init.d/trojaLova

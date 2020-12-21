@@ -1,0 +1,5 @@
+#a skel-be kell bemásolni a szükséges txt-t
+sudo cp Szabalyzat.txt /etc/skel
+
+#a jelenlegi home-okba is bemásolja a szabalyzatot
+for i in /home/*; do sudo cp Szabalyzat.txt "$i"; done 

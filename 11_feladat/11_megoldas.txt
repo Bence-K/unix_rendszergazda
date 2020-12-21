@@ -1,0 +1,2 @@
+#mappa jogainak visszadása
+sudo chown -R talpasUser:talpasUser /home/talpasUser  

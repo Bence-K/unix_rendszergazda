@@ -1,0 +1,1 @@
+Van a számítógépünkön egy process (/home/user1/szkript.sh), amelynek mindig futnia kell. Írjon egy scriptet, ami minden órában lefut, és ellenőrzi hogy fut-e a process. Ha fut, akkor nem csinál semmit, de ha nem fut akkor elindítja.  

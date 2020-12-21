@@ -1,0 +1,5 @@
+#Bootolás után meg kell keresni azt a diszket amelyiken a linux fájl rendszer van, pl fdisk -l. Ezután fel kell csatolni a diszket a jelenlegi fájlrendszerre pl mount /dev/sda1 /mnt
+#Ezután mountolni kell az ottani system mappákat a jelenlegire(sys,proc,run,dev)
+#pl: for i in /sys / proc /run /dev; do sudo mount -B "$1" "/mnt$1"; done
+#Az -B --bind kapcsolóval lehet megadni hogy egyes helyeket máshova csatoljon
+#Majd ha minden megvan, akkor a "sudo chroot /mnt" parancsot kiadva már a céges linuxba lesz bejelentkezve a rendszergazda és kiadhatja a GRUB javításához a parancsokat.

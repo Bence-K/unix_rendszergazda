@@ -1,0 +1,5 @@
+#egy uj sort kell beirni a crontab-ba
+sudo crontab -e
+
+#a sor amit oda kell irni
+0 * * * * tar -cvfz biztonsagimentes.tar.gz /home/kozos -C /var/mentes

@@ -1,0 +1,1 @@
+13.	Tömeges átszervezés volt a cégnél, több kolléga egy másik épületbe költözött át (más rendszer). Szerencsére egy szöveges állományba összegyűjtötték a törlendő felhasználók adatait. userNev:Teljes nev:igen/nem formában. Írjon egy kis shell szkriptet, ami törli a usereket! Az utolsó mezőben igen vagy nem szöveg szerepel, aminek jelentése: kell -e törölni a home mappát!

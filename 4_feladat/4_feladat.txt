@@ -1,0 +1,1 @@
+4.	Az új disk partíciót le kellene formázni (lásd előző feladat). Általános file tárolás a cél. Milyen partíciót javasol? Hogyan hozzuk létre azokat?

@@ -1,0 +1,8 @@
+#mindegyik kilistázása, és meg keressük melyik az amelyik jelenleg is fut
+docker ps -a
+
+#ha egy parancsot szeretnének kiadni a jelenleg futó konténeren akkor 
+docker exec -it parancs
+
+#ha pedig csatlakozni szeretnének hozzá akkor pedit 
+docker attach KONTÉNER_ID

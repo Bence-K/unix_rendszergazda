@@ -1,0 +1,21 @@
+#felhasználók létrehozása
+sudo useradd kovacs35
+sudo useradd nagy12
+sudo useradd toth13
+
+#csoport létrehozása
+sudo groupadd kutatok
+
+#felhasználók csoporthoz rendelése
+sudo usermod -a -G kutatok kovacs35
+sudo usermod -a -G kutatok nagy12
+sudo usermod -a -G kutatok toth13
+
+#mappa létrehozása
+sudo mkdir /home/kutatok 
+
+#mappa átadása a kutatok-csoportnak
+sudo chgrp -R kutatok kutatok
+
+#irasi es olvasasi jogok adása a csoport minden tagjának a mappához
+sudo chmod g+rw kutatok/

@@ -1,0 +1,1 @@
+7.	Valamiért nagyon lassú a gépünk, de nem mindig. A memória használat a gyanús. Hogyan tudnánk folyamatosan figyelni, hogy melyik process használja a legtöbb memóriát?

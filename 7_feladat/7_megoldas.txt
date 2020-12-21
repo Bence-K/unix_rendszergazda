@@ -1,0 +1,11 @@
+#top parancs
+top
+
+#rendezési menü -> d-betű
+d
+
+#navigálás a memóriához, majd s-betűvel hogy a szerint rendezze
+s
+
+#ezután "q"-val vissza az aktiv processzekhez
+q

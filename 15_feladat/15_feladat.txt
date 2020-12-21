@@ -1,0 +1,1 @@
+15.	Írjon egy shell szkriptet, ami ha futtatják, akkor kilistázza a futó processzeket, és ha fut a tamado processz, akkor levelet küld, amelyben elküldi ezen processz adatait. (user, környezeti változók, file útvonala). Futtassa a szkriptet percenként!

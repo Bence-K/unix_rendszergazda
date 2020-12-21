@@ -1,0 +1,24 @@
+sudo fdisk /dev/sda 
+
+#miután megnyitotta az fdisket elsőnek törlöm a particiót
+#d-betű megnyomása, majd a partició megadása
+d
+ 
+#törlés után
+
+# "n" -betűt megnyomva új particiót hozok létre ami 700G
+n
+# "t" -betűt lenyomva beállitom a partició tipusát, pl linux home
+t
+
+# "n" -betűt megnyomva új particiót hozok létre ami 500G
+n
+# "t" -betűt lenyomva beállitom a partició tipusát, pl linux home
+t
+
+# "n" -betűt megnyomva új particiót hozok létre ami 300G
+n
+# "t" -betűt lenyomva beállitom a partició tipusát, pl linux home
+t
+
+#ha mindennel végeztem, akkor "w"-t nyomja kiirja a változtatásokat

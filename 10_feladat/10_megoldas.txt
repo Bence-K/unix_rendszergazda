@@ -1,0 +1,8 @@
+#telepitett gcc forditó keresése:
+apt list --installed | grep gcc
+
+#keresés a beállitott repo-kban
+apt search gcc
+
+#telepites
+sudo apt install gcc.....

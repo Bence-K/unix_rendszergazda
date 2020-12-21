@@ -1,0 +1,1 @@
+Írjon egy kis shell szkriptet, ami egy bemeneti paramétert kap, és arról eldönti, hogy fájl, mappa, illetve létezik-e.

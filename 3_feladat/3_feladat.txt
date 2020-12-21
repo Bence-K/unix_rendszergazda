@@ -1,0 +1,1 @@
+3.	Új diszket kapott a szervezet, amelyet  /dev/sda neven latunk (1.5 T). Letre szeretnénk hozni rajta egy partíciót a user home-oknak (700G), var-nak egy 500G, és a maradékot a /usr-nek. Mutassa be, hogy hogyan kell létrehozni. (nehogy kiírjátok, csak meg kell mutatni mentes nélkül)

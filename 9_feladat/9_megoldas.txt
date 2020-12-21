@@ -1,0 +1,12 @@
+#szabad terület
+df -h
+	
+#fájlok a gyökérben, csak hogy melyik mappa mekkora helyet foglal
+sudo du -d 1 -h / 
+	
+#tetszőleges mappa
+sudo du -d 1 -h /eleresi/hely
+	
+#legnagyobb 5 fájl
+du -h /elérési/utvonal | sort -h | tail -n 5
+	

@@ -1,0 +1,1 @@
+10.	Az egyik felhasználó jelzi, hogy az alkalmazásának legalább a gcc 7.0.4 fordító kell. Ellenőrizze, hogy ez az alkalmazás fel van -e már telepítve. Na igen hát ez nincs. Keresse meg a beállított repository-kban, hogy melyik verzió érhető el! telepítse fel a megfelelő verziót!
